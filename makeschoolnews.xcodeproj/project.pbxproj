@@ -14,13 +14,15 @@
 		AE2B5AF31C6DABC5004000A9 /* makeschoolnewsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B5AF21C6DABC5004000A9 /* makeschoolnewsUITests.swift */; };
 		AE2B5B081C6DAC24004000A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2B5B061C6DAC24004000A9 /* LaunchScreen.storyboard */; };
 		AE2B5B091C6DAC24004000A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2B5B071C6DAC24004000A9 /* Main.storyboard */; };
-		AE2B5B0B1C6DAC63004000A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B5B0A1C6DAC63004000A9 /* ViewController.swift */; };
+		AE2B5B0B1C6DAC63004000A9 /* LinksController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B5B0A1C6DAC63004000A9 /* LinksController.swift */; };
 		AE2B5B0D1C6DAFAB004000A9 /* BorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B5B0C1C6DAFAB004000A9 /* BorderedView.swift */; };
 		AE2B5B101C6DB1F9004000A9 /* ArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B5B0F1C6DB1F9004000A9 /* ArrayDataSource.swift */; };
 		AE2B5B121C6DB220004000A9 /* LinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B5B111C6DB220004000A9 /* LinkCell.swift */; };
 		AE2B5B141C6DB23A004000A9 /* LinkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE2B5B131C6DB23A004000A9 /* LinkCell.xib */; };
 		AE2B5B171C6DB25A004000A9 /* LinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B5B161C6DB25A004000A9 /* LinkModel.swift */; };
 		AE2B5B191C6DB354004000A9 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B5B181C6DB354004000A9 /* UserModel.swift */; };
+		AE35256A1C7A6823001CB401 /* LinksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE3525691C7A6823001CB401 /* LinksView.swift */; };
+		AEF545701C7A721F0084CBC9 /* WrappedLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF5456F1C7A721F0084CBC9 /* WrappedLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,13 +56,15 @@
 		AE2B5AF41C6DABC5004000A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE2B5B061C6DAC24004000A9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE2B5B071C6DAC24004000A9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		AE2B5B0A1C6DAC63004000A9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE2B5B0A1C6DAC63004000A9 /* LinksController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinksController.swift; sourceTree = "<group>"; };
 		AE2B5B0C1C6DAFAB004000A9 /* BorderedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedView.swift; sourceTree = "<group>"; };
 		AE2B5B0F1C6DB1F9004000A9 /* ArrayDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDataSource.swift; sourceTree = "<group>"; };
 		AE2B5B111C6DB220004000A9 /* LinkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkCell.swift; sourceTree = "<group>"; };
 		AE2B5B131C6DB23A004000A9 /* LinkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LinkCell.xib; sourceTree = "<group>"; };
 		AE2B5B161C6DB25A004000A9 /* LinkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkModel.swift; sourceTree = "<group>"; };
 		AE2B5B181C6DB354004000A9 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		AE3525691C7A6823001CB401 /* LinksView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinksView.swift; sourceTree = "<group>"; };
+		AEF5456F1C7A721F0084CBC9 /* WrappedLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WrappedLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,7 +151,7 @@
 		AE2B5B001C6DABF0004000A9 /* controllers */ = {
 			isa = PBXGroup;
 			children = (
-				AE2B5B0A1C6DAC63004000A9 /* ViewController.swift */,
+				AE2B5B0A1C6DAC63004000A9 /* LinksController.swift */,
 			);
 			path = controllers;
 			sourceTree = "<group>";
@@ -156,6 +160,7 @@
 			isa = PBXGroup;
 			children = (
 				AE2B5B0C1C6DAFAB004000A9 /* BorderedView.swift */,
+				AEF5456F1C7A721F0084CBC9 /* WrappedLabel.swift */,
 			);
 			path = designables;
 			sourceTree = "<group>";
@@ -180,6 +185,7 @@
 		AE2B5B041C6DABF6004000A9 /* views */ = {
 			isa = PBXGroup;
 			children = (
+				AE3525691C7A6823001CB401 /* LinksView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -348,11 +354,13 @@
 				AE2B5B171C6DB25A004000A9 /* LinkModel.swift in Sources */,
 				AE2B5B101C6DB1F9004000A9 /* ArrayDataSource.swift in Sources */,
 				AE2B5B191C6DB354004000A9 /* UserModel.swift in Sources */,
-				AE2B5B0B1C6DAC63004000A9 /* ViewController.swift in Sources */,
+				AE2B5B0B1C6DAC63004000A9 /* LinksController.swift in Sources */,
 				AE2B5AD01C6DABC4004000A9 /* AppDelegate.swift in Sources */,
 				AE2B5AD81C6DABC4004000A9 /* makeschoolnews.xcdatamodeld in Sources */,
 				AE2B5B0D1C6DAFAB004000A9 /* BorderedView.swift in Sources */,
 				AE2B5B121C6DB220004000A9 /* LinkCell.swift in Sources */,
+				AEF545701C7A721F0084CBC9 /* WrappedLabel.swift in Sources */,
+				AE35256A1C7A6823001CB401 /* LinksView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -560,6 +568,7 @@
 				AE2B5AF91C6DABC5004000A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE2B5AFA1C6DABC5004000A9 /* Build configuration list for PBXNativeTarget "makeschoolnewsTests" */ = {
 			isa = XCConfigurationList;
@@ -568,6 +577,7 @@
 				AE2B5AFC1C6DABC5004000A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE2B5AFD1C6DABC5004000A9 /* Build configuration list for PBXNativeTarget "makeschoolnewsUITests" */ = {
 			isa = XCConfigurationList;
@@ -576,6 +586,7 @@
 				AE2B5AFF1C6DABC5004000A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

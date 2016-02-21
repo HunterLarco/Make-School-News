@@ -9,6 +9,10 @@
 import Foundation
 
 class UserModel {
+    
+    class var sample: UserModel {
+        return UserModel(email: "test@example.com", username: "test", created: NSDate(), karma: 10, userid: "0123456789")
+    }
 
     private var email: String
     private var username: String

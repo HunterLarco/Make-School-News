@@ -8,21 +8,17 @@
 
 import UIKit
 
-let JobCellIdentifier = "JobCell"
-class JobCell : UICollectionViewCell {
+let LinkCellIdentifier = "LinkCell"
+class LinkCell : UICollectionViewCell {
     
-    @IBOutlet weak var companyTitle: UILabel!
-    @IBOutlet weak var position: UILabel!
-    
-    var job: Job? {
+    var link: LinkModel? {
         didSet {
-            companyTitle.text = job?.companyName
-            position.text = job?.position
+            
         }
     }
     
     static func nib() -> UINib {
-        return UINib(nibName: JobCellIdentifier, bundle: nil)
+        return UINib(nibName: LinkCellIdentifier, bundle: nil)
     }
     
 }

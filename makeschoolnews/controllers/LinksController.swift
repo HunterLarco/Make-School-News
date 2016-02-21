@@ -8,11 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class LinksController: UIViewController {
+    
+    @IBOutlet var linksView: LinksView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        linksView.links = [LinkModel.sample, LinkModel.sample, LinkModel.sample]
+        linksView.setupCollectionView()
     }
 
     override func didReceiveMemoryWarning() {

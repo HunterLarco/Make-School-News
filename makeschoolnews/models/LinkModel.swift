@@ -10,6 +10,10 @@ import Foundation
 
 class LinkModel {
     
+    class var sample: LinkModel {
+        return LinkModel(url: "http://voxelcss.com", text: nil, title: "Voxel css is doing well", created: NSDate(), author: UserModel.sample, votes: 10, voteStatus: 1, linkid: "0123456789", commentrootid: "9876543210", commentsCount: 3)
+    }
+    
     private var url: String
     private var text: String?
     private var title: String?
