@@ -15,6 +15,12 @@
 		AE2B5B081C6DAC24004000A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2B5B061C6DAC24004000A9 /* LaunchScreen.storyboard */; };
 		AE2B5B091C6DAC24004000A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE2B5B071C6DAC24004000A9 /* Main.storyboard */; };
 		AE2B5B0B1C6DAC63004000A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B5B0A1C6DAC63004000A9 /* ViewController.swift */; };
+		AE2B5B0D1C6DAFAB004000A9 /* BorderedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B5B0C1C6DAFAB004000A9 /* BorderedView.swift */; };
+		AE2B5B101C6DB1F9004000A9 /* ArrayDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B5B0F1C6DB1F9004000A9 /* ArrayDataSource.swift */; };
+		AE2B5B121C6DB220004000A9 /* LinkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B5B111C6DB220004000A9 /* LinkCell.swift */; };
+		AE2B5B141C6DB23A004000A9 /* LinkCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE2B5B131C6DB23A004000A9 /* LinkCell.xib */; };
+		AE2B5B171C6DB25A004000A9 /* LinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B5B161C6DB25A004000A9 /* LinkModel.swift */; };
+		AE2B5B191C6DB354004000A9 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE2B5B181C6DB354004000A9 /* UserModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +55,12 @@
 		AE2B5B061C6DAC24004000A9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE2B5B071C6DAC24004000A9 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		AE2B5B0A1C6DAC63004000A9 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE2B5B0C1C6DAFAB004000A9 /* BorderedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BorderedView.swift; sourceTree = "<group>"; };
+		AE2B5B0F1C6DB1F9004000A9 /* ArrayDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayDataSource.swift; sourceTree = "<group>"; };
+		AE2B5B111C6DB220004000A9 /* LinkCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkCell.swift; sourceTree = "<group>"; };
+		AE2B5B131C6DB23A004000A9 /* LinkCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LinkCell.xib; sourceTree = "<group>"; };
+		AE2B5B161C6DB25A004000A9 /* LinkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkModel.swift; sourceTree = "<group>"; };
+		AE2B5B181C6DB354004000A9 /* UserModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +111,7 @@
 		AE2B5ACE1C6DABC4004000A9 /* makeschoolnews */ = {
 			isa = PBXGroup;
 			children = (
+				AE2B5B151C6DB251004000A9 /* models */,
 				AE2B5B051C6DABFE004000A9 /* cells */,
 				AE2B5B041C6DABF6004000A9 /* views */,
 				AE2B5B001C6DABF0004000A9 /* controllers */,
@@ -142,6 +155,7 @@
 		AE2B5B011C6DABF0004000A9 /* designables */ = {
 			isa = PBXGroup;
 			children = (
+				AE2B5B0C1C6DAFAB004000A9 /* BorderedView.swift */,
 			);
 			path = designables;
 			sourceTree = "<group>";
@@ -149,6 +163,7 @@
 		AE2B5B021C6DABF0004000A9 /* helpers */ = {
 			isa = PBXGroup;
 			children = (
+				AE2B5B0E1C6DB1F3004000A9 /* datasource */,
 			);
 			path = helpers;
 			sourceTree = "<group>";
@@ -172,8 +187,27 @@
 		AE2B5B051C6DABFE004000A9 /* cells */ = {
 			isa = PBXGroup;
 			children = (
+				AE2B5B111C6DB220004000A9 /* LinkCell.swift */,
+				AE2B5B131C6DB23A004000A9 /* LinkCell.xib */,
 			);
 			path = cells;
+			sourceTree = "<group>";
+		};
+		AE2B5B0E1C6DB1F3004000A9 /* datasource */ = {
+			isa = PBXGroup;
+			children = (
+				AE2B5B0F1C6DB1F9004000A9 /* ArrayDataSource.swift */,
+			);
+			path = datasource;
+			sourceTree = "<group>";
+		};
+		AE2B5B151C6DB251004000A9 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				AE2B5B161C6DB25A004000A9 /* LinkModel.swift */,
+				AE2B5B181C6DB354004000A9 /* UserModel.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +320,7 @@
 				AE2B5B091C6DAC24004000A9 /* Main.storyboard in Resources */,
 				AE2B5ADA1C6DABC4004000A9 /* Assets.xcassets in Resources */,
 				AE2B5B081C6DAC24004000A9 /* LaunchScreen.storyboard in Resources */,
+				AE2B5B141C6DB23A004000A9 /* LinkCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,9 +345,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE2B5B171C6DB25A004000A9 /* LinkModel.swift in Sources */,
+				AE2B5B101C6DB1F9004000A9 /* ArrayDataSource.swift in Sources */,
+				AE2B5B191C6DB354004000A9 /* UserModel.swift in Sources */,
 				AE2B5B0B1C6DAC63004000A9 /* ViewController.swift in Sources */,
 				AE2B5AD01C6DABC4004000A9 /* AppDelegate.swift in Sources */,
 				AE2B5AD81C6DABC4004000A9 /* makeschoolnews.xcdatamodeld in Sources */,
+				AE2B5B0D1C6DAFAB004000A9 /* BorderedView.swift in Sources */,
+				AE2B5B121C6DB220004000A9 /* LinkCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
