@@ -17,8 +17,12 @@ class UserModel {
     
     private let userid: String
     
-    func init(){
-        
+    init(email: String, username: String, created: NSDate, karma: Int, userid: String){
+        self.email = email
+        self.username = username
+        self.created = created
+        self.karma = karma
+        self.userid = userid
     }
     
 }
