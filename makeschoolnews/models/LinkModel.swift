@@ -42,4 +42,11 @@ class LinkModel {
         self.commentsCount = commentsCount
     }
     
+    func getTitle() -> String? {
+        return url
+    }
+    func getVotes() -> Int {
+        return votes
+    }
+    
 }

@@ -9,16 +9,24 @@
 import UIKit
 
 let LinkCellIdentifier = "LinkCell"
-class LinkCell : UICollectionViewCell {
+class LinkCell : UITableViewCell {
     
-    var link: LinkModel? {
+    @IBOutlet weak var titleLabel: WrappedLabel!
+    @IBOutlet weak var voteLabel: UILabel!
+    
+    var link: LinkModel! {
         didSet {
-            
+            titleLabel.text = link.getTitle()
+            voteLabel.text = String(link.getVotes())
         }
     }
     
     static func nib() -> UINib {
         return UINib(nibName: LinkCellIdentifier, bundle: nil)
+    }
+    
+    override func awakeFromNib() {
+        self.selectionStyle = UITableViewCellSelectionStyle.None
     }
     
 }
