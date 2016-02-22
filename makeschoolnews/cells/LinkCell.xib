@@ -15,28 +15,31 @@
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Eam-Up-hbZ" userLabel="Vote View">
-                        <rect key="frame" x="20" y="20" width="38.5" height="40.5"/>
+                        <rect key="frame" x="20" y="0.0" width="43" height="40"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwc-1s-CpD" userLabel="Vote Count">
-                                <rect key="frame" x="14" y="10" width="10.5" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="v3c-lw-zrr">
-                                <rect key="frame" x="0.0" y="0.0" width="1" height="40.5"/>
+                                <rect key="frame" x="0.0" y="0.0" width="1" height="39.5"/>
                                 <color key="backgroundColor" red="0.62745098040000002" green="0.62745098040000002" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="1" id="w10-R4-dyZ"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="M3y-sp-jUU">
-                                <rect key="frame" x="37" y="0.0" width="1" height="40.5"/>
+                                <rect key="frame" x="41.5" y="0.0" width="1" height="40"/>
                                 <color key="backgroundColor" red="0.62745098040000002" green="0.62745098040000002" blue="0.62745098040000002" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="1" id="nxP-Hp-7ej"/>
                                 </constraints>
                             </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="99" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fwc-1s-CpD" userLabel="Vote Count">
+                                <rect key="frame" x="4" y="10" width="35" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="35" id="r1g-2g-pzG"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -45,21 +48,21 @@
                             <constraint firstAttribute="bottom" secondItem="v3c-lw-zrr" secondAttribute="bottom" id="GsI-iK-Wa1"/>
                             <constraint firstItem="v3c-lw-zrr" firstAttribute="leading" secondItem="Eam-Up-hbZ" secondAttribute="leading" id="S8u-tY-ypW"/>
                             <constraint firstItem="fwc-1s-CpD" firstAttribute="top" secondItem="Eam-Up-hbZ" secondAttribute="top" constant="10" id="SYz-hY-tXf"/>
-                            <constraint firstItem="fwc-1s-CpD" firstAttribute="leading" secondItem="Eam-Up-hbZ" secondAttribute="leading" constant="14" id="YnT-PO-jVr"/>
+                            <constraint firstItem="fwc-1s-CpD" firstAttribute="leading" secondItem="Eam-Up-hbZ" secondAttribute="leading" constant="4" id="YnT-PO-jVr"/>
                             <constraint firstAttribute="bottom" secondItem="fwc-1s-CpD" secondAttribute="bottom" constant="10" id="bge-o3-Urk"/>
-                            <constraint firstAttribute="trailing" secondItem="fwc-1s-CpD" secondAttribute="trailing" constant="14" id="gOS-1q-rdB"/>
+                            <constraint firstAttribute="trailing" secondItem="fwc-1s-CpD" secondAttribute="trailing" constant="4" id="gOS-1q-rdB"/>
                             <constraint firstItem="v3c-lw-zrr" firstAttribute="top" secondItem="Eam-Up-hbZ" secondAttribute="top" id="glm-Ct-72N"/>
                             <constraint firstAttribute="bottom" secondItem="M3y-sp-jUU" secondAttribute="bottom" id="wMh-eL-w6V"/>
                         </constraints>
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fXs-6n-5fq" userLabel="Data View">
-                        <rect key="frame" x="78" y="20" width="392.5" height="294"/>
+                        <rect key="frame" x="83" y="0.0" width="388" height="314"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dwk-Rb-qU3" userLabel="Title View">
-                                <rect key="frame" x="0.0" y="0.0" width="392.5" height="61"/>
+                                <rect key="frame" x="0.0" y="0.0" width="388" height="61"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzS-f1-guh" userLabel="Label Value" customClass="WrappedLabel" customModule="makeschoolnews" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="392.5" height="61"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="388" height="61"/>
                                         <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultricies urna at elementum ultrices. Cras vel laoreet orci. Lorem ipsum.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -78,7 +81,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WQx-CX-fvv" userLabel="Details View">
-                                <rect key="frame" x="0.0" y="61" width="392.5" height="233"/>
+                                <rect key="frame" x="0.0" y="61" width="388" height="253"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="by username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="unm-iQ-2kN">
                                         <rect key="frame" x="0.0" y="0.0" width="99" height="20.5"/>
@@ -111,7 +114,7 @@
                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
             </view>
             <constraints>
-                <constraint firstItem="Eam-Up-hbZ" firstAttribute="top" secondItem="ewI-ow-cUA" secondAttribute="top" constant="20" id="6tY-5Z-2ES"/>
+                <constraint firstItem="Eam-Up-hbZ" firstAttribute="top" secondItem="ewI-ow-cUA" secondAttribute="top" id="6tY-5Z-2ES"/>
                 <constraint firstAttribute="bottom" secondItem="fXs-6n-5fq" secondAttribute="bottom" constant="20" id="I4N-MN-Mzd"/>
                 <constraint firstItem="fXs-6n-5fq" firstAttribute="top" secondItem="Eam-Up-hbZ" secondAttribute="top" id="SsF-1W-iQT"/>
                 <constraint firstAttribute="trailing" secondItem="fXs-6n-5fq" secondAttribute="trailing" constant="20" id="cWf-hi-k0G"/>
